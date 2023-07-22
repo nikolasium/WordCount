@@ -12,7 +12,7 @@ public class Main {
         for (String filename : args) {
             wordCount.countWordsInFile(filename);
         }
-
+        // Print summary if more than 2 files are specified
         if (args.length > 1) {
             wordCount.printTotal();
         }
